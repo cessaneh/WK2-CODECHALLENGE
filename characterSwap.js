@@ -2,8 +2,9 @@
 //output should be "tHE qUICK bROWN fOX"
 
 function charSwap (character){
-    let result = "";
-    for (let i = 0; i < character.length; i++){
+    let result = "";// should be a string
+    //using the for loop.
+    for (let i = 0; i < character.length; i++){ //using the if statements.
         if (character[i] === character[i].toUpperCase()){
             result += character[i].toLowerCase()
         }else{
